@@ -19,3 +19,11 @@
         </div>
     </header>
 </template>
+
+<style>
+header{
+    background-color: red;
+    width: 100%;
+    height: 7.5rem;
+}
+</style>
