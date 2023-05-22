@@ -7,7 +7,10 @@
 <template>
     <main>
         <!--contenuto-ancora vuoto-->
-        <div>
+        <div class="contentContainer">
+            <span>
+                -Content goes here-
+            </span>
         </div>
     </main>
 </template>
@@ -17,5 +20,13 @@
         background-color: black;
         width: 100%;
         height: 8rem;
+    }
+
+    .contentContainer{
+        padding: 3rem;        
+    }
+
+    span{
+        color: white;
     }
 </style>
